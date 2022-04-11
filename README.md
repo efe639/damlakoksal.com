@@ -58,13 +58,13 @@ yarn workspace api add better-fs
 - Under `api/db/schema.prisma` change the model according to your requirements.
 - Afterwards, run `yarn rw prisma migrate dev` to take a snapshot of db.
 
-### Scaffold
+## Generating Scaffold
 
 - `yarn rw generate scaffold post` will create a page with CRUD operations on plural version of the page which means, posts.
 
 - `posts.sdl.js` generated after this command. It defines fields and types for graphql schema.
 
-## Cell
+## Generating Cell
 
 - `yarn rw g cell Articles` will create a cell with all of the components for these scenarios;
   - Fetching data
